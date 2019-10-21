@@ -1,0 +1,12 @@
+{
+    "name": "Video grabber",
+    "version": "1.0",
+    "description": "Grabs video links from page",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "matches": ["*://*/*"],
+        "js": ["myscript.js"],
+        "css": ["styles.css"],
+        "all_frames": true
+    }]
+}
